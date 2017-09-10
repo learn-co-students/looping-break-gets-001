@@ -1,5 +1,5 @@
 
-def levitation_quiz(answer)
+def levitation_quiz
   loop do
 	   puts 'What is the spell that enacts levitation?'
      answer = gets.chomp
@@ -7,5 +7,3 @@ def levitation_quiz(answer)
    end
    puts "What is the spell that enacts levitation?\nYou passed the quiz!\n"
 end
-
-#levitation_quiz
